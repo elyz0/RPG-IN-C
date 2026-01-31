@@ -4,7 +4,7 @@
 typedef struct{
   char nome[50];
   int quantidade;
-  int def, atk, vida;
+  int vida, def, atk;
 } Item; 
 
 typedef struct{
@@ -13,9 +13,7 @@ typedef struct{
 } Mob;  
  
 typedef struct{
-  int vida;
-  int atk;
-  int def;
+  int vida, def, atk;
 } MobStats; 
  
 #endif
